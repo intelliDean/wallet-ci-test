@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup regtest
-        uses: intelliDean/ZecKit@mmain
+        uses: intelliDean/ZecKit@main
         with:
           miner_address: "tmQ1BiNRfsvT6eMkJ5n7nMZsbz1PGwCs1Zs"
           fund_address: "uregtest1ur83jamvhc5pwe8xzlu9d8ur4mxmny385mhlurxh5z00e6vhcf9zk0dncar334n0ucskdya9ytdrvzucprqjrhy7hd6rkklp0q6eyxp5"
           fund_amount: "10.0"
-          allow_build: "true"
+          allow_build: "false"
